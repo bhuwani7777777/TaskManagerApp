@@ -1,0 +1,47 @@
+/* HERO SECTION */
+.hero-section {
+  min-height: 90vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+}
+
+.hero-overlay {
+  background: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  padding: 100px 0;
+}
+
+/* ACADEMIC CARDS */
+.card img {
+  height: 200px;
+  object-fit: cover;
+}
+
+.card {
+  border-radius: 12px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 30px rgba(0,0,0,0.15);
+}
+
+/* SECTION HEADINGS */
+.section-title {
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+
+/* ACHIEVEMENTS SECTION */
+.achievement-section {
+  background: linear-gradient(135deg, #0d6efd, #084298);
+}
+
+/* CTA */
+.cta-btn {
+  padding: 14px 36px;
+  font-size: 1.1rem;
+}

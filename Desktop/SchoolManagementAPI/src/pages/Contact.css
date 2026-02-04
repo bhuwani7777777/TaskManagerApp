@@ -1,0 +1,15 @@
+.hover-card {
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.hover-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.contact-hero h1 {
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
+}
+
+.contact-hero p {
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
+}
