@@ -2,9 +2,8 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { FaEnvelope } from "react-icons/fa";
 
-const ForgotPassword = () => {
-  const [email, setEmail] = useState("");
-
+// eslint-disable-next-line no-unused-vars
+const [email, setEmail] = useState("");
   const handleSubmit = (e) => {
     e.preventDefault();
     // TODO: Add forgot password API call
